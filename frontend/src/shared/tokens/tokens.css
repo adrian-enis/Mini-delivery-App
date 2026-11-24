@@ -1,0 +1,57 @@
+/* Design tokens: el único lugar donde viven colores, espacios y tipografía.
+   Los componentes usan var(--token), nunca valores sueltos. */
+
+:root {
+  /* Colores de marca */
+  --color-primary: #e8590c;
+  --color-primary-hover: #c2410c;
+  --color-primary-soft: #fff1e6;
+  --color-on-primary: #ffffff;
+
+  /* Neutros */
+  --color-bg: #faf8f5;
+  --color-surface: #ffffff;
+  --color-border: #e7e2db;
+  --color-text: #1f1b16;
+  --color-text-muted: #6b635a;
+
+  /* Estados (feedback y estado del pedido) */
+  --color-success: #2f9e44;
+  --color-success-soft: #ebfbee;
+  --color-warning: #e67700;
+  --color-warning-soft: #fff4e6;
+  --color-danger: #e03131;
+  --color-danger-soft: #fff5f5;
+  --color-info: #1971c2;
+  --color-info-soft: #e7f5ff;
+
+  /* Tipografía */
+  --font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2rem;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --line-height: 1.5;
+
+  /* Espaciado (escala de 4px) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+
+  /* Bordes y sombras */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 999px;
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.06);
+  --shadow-md: 0 4px 12px rgb(0 0 0 / 0.08);
+}

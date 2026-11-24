@@ -1,14 +1,7 @@
-
-import './App.css'
+import { TokensDemo } from './shared/tokens/TokensDemo'
 
 function App() {
-
-
-  return (
-    <>
-      <h1>hola mundo</h1>
-    </>
-  )
+  return <TokensDemo />
 }
 
 export default App
