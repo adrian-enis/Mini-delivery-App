@@ -1,0 +1,5 @@
+node_modules/
+practica-http/
+.env
+.env.*
+.DS_Store
