@@ -15,13 +15,17 @@
   --color-text: #1f1b16;
   --color-text-muted: #6b635a;
 
-  /* Estados (feedback y estado del pedido) */
+  /* Estados (feedback y estado del pedido)
+     -strong: versión oscura para TEXTO sobre el fondo -soft (contraste legible) */
   --color-success: #2f9e44;
   --color-success-soft: #ebfbee;
+  --color-success-strong: #237a35;
   --color-warning: #e67700;
   --color-warning-soft: #fff4e6;
+  --color-warning-strong: #a34e00;
   --color-danger: #e03131;
   --color-danger-soft: #fff5f5;
+  --color-danger-strong: #c11f1f;
   --color-info: #1971c2;
   --color-info-soft: #e7f5ff;
 
